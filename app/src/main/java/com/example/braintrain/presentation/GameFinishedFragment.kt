@@ -11,6 +11,7 @@ import com.example.braintrain.R
 import com.example.braintrain.databinding.FragmentGameFinishedBinding
 
 class GameFinishedFragment : Fragment() {
+
     private val args by navArgs<GameFinishedFragmentArgs>()
 
     private var _binding: FragmentGameFinishedBinding? = null
