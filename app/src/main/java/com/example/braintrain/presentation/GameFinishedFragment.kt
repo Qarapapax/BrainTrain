@@ -4,15 +4,11 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentManager
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.braintrain.R
 import com.example.braintrain.databinding.FragmentGameFinishedBinding
-import com.example.braintrain.domain.entity.GameResult
-import com.example.braintrain.domain.entity.GameSettings
 
 class GameFinishedFragment : Fragment() {
     private val args by navArgs<GameFinishedFragmentArgs>()

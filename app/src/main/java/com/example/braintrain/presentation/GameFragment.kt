@@ -11,10 +11,8 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.example.braintrain.R
 import com.example.braintrain.databinding.FragmentGameBinding
 import com.example.braintrain.domain.entity.GameResult
-import com.example.braintrain.domain.entity.Level
 
 class GameFragment : Fragment() {
 

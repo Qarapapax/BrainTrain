@@ -6,10 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.example.braintrain.R
 import com.example.braintrain.databinding.FragmentChooseLevelBinding
 import com.example.braintrain.domain.entity.Level
-import java.lang.RuntimeException
 
 class ChooseLevelFragment : Fragment() {
 
